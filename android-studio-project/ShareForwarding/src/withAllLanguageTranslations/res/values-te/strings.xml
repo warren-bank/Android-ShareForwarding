@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">నివేదిక మరియు ముందుకు</string>
+  <string name="toast_no_app_is_installed_for">ఓపెన్ కు ఏ యాప్ స్థాపించబడలేదు</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Ekstrakt i naprijed.</string>
+  <string name="toast_no_app_is_installed_for">Nijedna aplikacija nije instalirana da bi se otvorila.</string>
+</resources>

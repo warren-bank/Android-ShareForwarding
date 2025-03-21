@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Fusa agus cuir ar aghaidh</string>
+  <string name="toast_no_app_is_installed_for">Níl aon app suiteáilte le hoscailt</string>
+</resources>

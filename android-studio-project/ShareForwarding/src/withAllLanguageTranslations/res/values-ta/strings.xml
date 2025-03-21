@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">கடைசியாக மற்றும் முன்னேற்றம்</string>
+  <string name="toast_no_app_is_installed_for">திறப்பதற்கு பயன்பாடு நிறுவப்படவில்லை</string>
+</resources>

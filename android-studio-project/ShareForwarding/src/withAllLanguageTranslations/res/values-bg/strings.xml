@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Извлечение и напред</string>
+  <string name="toast_no_app_is_installed_for">Не е инсталирано приложение за отваряне</string>
+</resources>

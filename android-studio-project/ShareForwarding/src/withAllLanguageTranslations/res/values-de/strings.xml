@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Extrahieren und weiterleiten</string>
+  <string name="toast_no_app_is_installed_for">Es wird keine App zum Öffnen installiert.</string>
+</resources>

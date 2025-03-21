@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Ekstrak dan ke hadapan</string>
+  <string name="toast_no_app_is_installed_for">Tiada aplikasi dipasang untuk dibuka</string>
+</resources>

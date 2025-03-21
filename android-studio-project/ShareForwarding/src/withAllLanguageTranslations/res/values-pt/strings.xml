@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Extrato e frente</string>
+  <string name="toast_no_app_is_installed_for">Nenhum app está instalado para abrir</string>
+</resources>

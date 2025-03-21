@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Видобути і вперед</string>
+  <string name="toast_no_app_is_installed_for">Не встановлено програму для відкриття</string>
+</resources>

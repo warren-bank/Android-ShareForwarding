@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Extrahovat a předat</string>
+  <string name="toast_no_app_is_installed_for">Není nainstalována žádná aplikace k otevření</string>
+</resources>

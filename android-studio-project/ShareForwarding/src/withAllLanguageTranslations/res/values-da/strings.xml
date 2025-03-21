@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Udtræk og fremad</string>
+  <string name="toast_no_app_is_installed_for">Der er ikke installeret en app for at åbne</string>
+</resources>

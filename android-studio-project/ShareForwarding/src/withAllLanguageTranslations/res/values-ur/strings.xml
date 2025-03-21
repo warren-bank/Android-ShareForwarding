@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">نکالیں اور آگے</string>
+  <string name="toast_no_app_is_installed_for">کھولنے کے لئے کوئی ایپ انسٹال نہیں ہے</string>
+</resources>

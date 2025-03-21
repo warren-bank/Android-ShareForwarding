@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Izvleček in posredi</string>
+  <string name="toast_no_app_is_installed_for">Nobena aplikacija ni nameščena za odpiranje</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">抽出および転送</string>
+  <string name="toast_no_app_is_installed_for">開くアプリケーションがインストールされていません</string>
+</resources>

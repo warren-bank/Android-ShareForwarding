@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Εξαγωγή και προώθηση</string>
+  <string name="toast_no_app_is_installed_for">Δεν έχει εγκατασταθεί εφαρμογή για άνοιγμα.</string>
+</resources>

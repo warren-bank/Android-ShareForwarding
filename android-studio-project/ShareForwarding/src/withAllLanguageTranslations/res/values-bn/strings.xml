@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">সম্প্রসারণ এবং এগিয়ে</string>
+  <string name="toast_no_app_is_installed_for">খোলা জন্য কোন অ্যাপ ইনস্টল করা হয়নি</string>
+</resources>

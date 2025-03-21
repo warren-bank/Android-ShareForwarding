@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Kivonat és előre</string>
+  <string name="toast_no_app_is_installed_for">Nincs telepítve alkalmazás a megnyitásra</string>
+</resources>

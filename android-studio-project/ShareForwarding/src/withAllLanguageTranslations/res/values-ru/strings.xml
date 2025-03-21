@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Извлечь и переслать</string>
+  <string name="toast_no_app_is_installed_for">Не установлено приложение для открытия</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Echdynnu a ymlaen</string>
+  <string name="toast_no_app_is_installed_for">Nid oes ap wedi ei osod i agor</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">અર્ક અને આગળ ધપાવો</string>
+  <string name="toast_no_app_is_installed_for">ખોલવા માટે કોઈ કાર્યક્રમ સ્થાપિત થયેલ નથી</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Extraheren en vooruit</string>
+  <string name="toast_no_app_is_installed_for">Er is geen app geïnstalleerd om te openen</string>
+</resources>

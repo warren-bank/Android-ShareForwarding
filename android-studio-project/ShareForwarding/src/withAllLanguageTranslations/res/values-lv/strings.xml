@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Izraksts un uz priekšu</string>
+  <string name="toast_no_app_is_installed_for">Nav instalēta lietotne, lai atvērtu</string>
+</resources>

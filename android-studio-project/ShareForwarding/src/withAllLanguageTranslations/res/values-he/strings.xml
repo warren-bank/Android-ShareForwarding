@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">חילוץ וקדימה</string>
+  <string name="toast_no_app_is_installed_for">לא מותקן יישום פתוח</string>
+</resources>

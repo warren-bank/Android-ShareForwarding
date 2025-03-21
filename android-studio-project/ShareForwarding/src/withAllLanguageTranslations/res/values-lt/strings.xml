@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Ištrauka ir pirmyn</string>
+  <string name="toast_no_app_is_installed_for">Nėra app yra įdiegta į atvirą</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">抽取和转发</string>
+  <string name="toast_no_app_is_installed_for">未安装应用程序以打开</string>
+</resources>

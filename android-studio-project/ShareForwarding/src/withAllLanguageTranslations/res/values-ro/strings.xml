@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Extractul și înainte</string>
+  <string name="toast_no_app_is_installed_for">Nici o aplicație nu este instalată pentru a deschide</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Chiết xuất và tiến lên</string>
+  <string name="toast_no_app_is_installed_for">Không có ứng dụng được cài đặt để mở</string>
+</resources>

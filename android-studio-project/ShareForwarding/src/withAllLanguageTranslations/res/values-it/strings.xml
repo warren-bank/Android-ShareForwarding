@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Estratto e avanti</string>
+  <string name="toast_no_app_is_installed_for">Nessuna app è installata per aprire</string>
+</resources>

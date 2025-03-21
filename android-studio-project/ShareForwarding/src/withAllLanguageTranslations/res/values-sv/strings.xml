@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">Extrahera och vidarebefordra</string>
+  <string name="toast_no_app_is_installed_for">Ingen app är installerad för att öppna</string>
+</resources>

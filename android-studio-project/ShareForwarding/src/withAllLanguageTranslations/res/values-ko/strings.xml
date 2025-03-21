@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">추출 및 전달</string>
+  <string name="toast_no_app_is_installed_for">열려 있는 애플리케이션이 설치되어 있지 않음</string>
+</resources>

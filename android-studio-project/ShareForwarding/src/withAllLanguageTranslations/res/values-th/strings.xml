@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">แยกและส่งต่อ</string>
+  <string name="toast_no_app_is_installed_for">ไม่ได้ติดตั้งแอ็พไว้เพื่อเปิด</string>
+</resources>

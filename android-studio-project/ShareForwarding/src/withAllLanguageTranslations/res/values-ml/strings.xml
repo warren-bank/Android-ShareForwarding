@@ -1,0 +1,4 @@
+<resources>
+  <string name="intent_filter_label">പ്രദര്ശിപ്പിക്കുക</string>
+  <string name="toast_no_app_is_installed_for">തുറക്കാന് ഒരു ആപ്പ് ഇന്സ്റ്റോള് ചെയ്തിട്ടില്ല</string>
+</resources>
