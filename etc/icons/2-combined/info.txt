@@ -1,0 +1,18 @@
+color palette:
+==============
+
+#27bd33 => green
+#1972F5 => blue
+
+layers:
+=======
+
+#1:
+  name    = call-forwarding
+  offsetX = 0
+  offsetY = 0
+
+#2
+  name    = share-icon
+  offsetX = 25px
+  offsetY = 60px

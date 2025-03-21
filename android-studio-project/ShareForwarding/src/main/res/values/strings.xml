@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string translatable="false" name="app_name">ShareForwarding</string>
+
+  <string name="intent_filter_label">Extract and forward</string>
+  <string name="toast_no_app_is_installed_for">No app is installed to open</string>
+</resources>
