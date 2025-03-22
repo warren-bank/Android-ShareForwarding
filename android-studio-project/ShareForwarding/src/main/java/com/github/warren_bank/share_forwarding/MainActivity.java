@@ -4,6 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -99,10 +100,10 @@ public class MainActivity extends Activity {
   }
 
   private void start_activity(Intent intent) {
-    if (intent.resolveActivity(getPackageManager()) != null) {
+    try {
       startActivity(intent);
     }
-    else {
+    catch(ActivityNotFoundException e) {
       Toast.makeText(
         MainActivity.this,
         getString(R.string.toast_no_app_is_installed_for) + ":\n\n" + intent.getDataString(),
