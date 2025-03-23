@@ -2,16 +2,22 @@ package com.github.warren_bank.share_forwarding;
 
 import com.github.warren_bank.share_forwarding.settings.SettingsUtils;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.Patterns;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MainActivity extends Activity {
   @Override
@@ -104,7 +110,7 @@ public class MainActivity extends Activity {
   private void start_activity(Intent intent) {
     try {
       if (SettingsUtils.getForceChooserDialogPreference(MainActivity.this)) {
-        intent = Intent.createChooser(intent, /* title= */ null);
+        intent = createChooser(intent);
       }
 
       startActivity(intent);
@@ -126,6 +132,37 @@ public class MainActivity extends Activity {
         ).show();
       }
     }
+  }
+
+  private Intent createChooser(Intent intent) {
+    List<Intent> initialIntents = new ArrayList<Intent>();
+
+    try {
+      PackageManager pm = getPackageManager();
+      int flags = (Build.VERSION.SDK_INT >= 23) ? PackageManager.MATCH_ALL : 0;
+      List<ResolveInfo> infos = pm.queryIntentActivities(intent, flags);
+
+      for (ResolveInfo info : infos) {
+        Intent in = (Intent) intent.clone();
+        in.setClassName(
+          info.activityInfo.packageName,
+          info.activityInfo.name
+        );
+        initialIntents.add(in);
+      }
+    }
+    catch(Exception e) {}
+
+    Intent chooserIntent = Intent.createChooser(intent, /* title= */ null);
+    if (!initialIntents.isEmpty()) {
+      chooserIntent.putExtra(
+        Intent.EXTRA_INITIAL_INTENTS,
+        initialIntents.toArray(
+          new Parcelable[initialIntents.size()]
+        )
+      );
+    }
+    return chooserIntent;
   }
 
 }
