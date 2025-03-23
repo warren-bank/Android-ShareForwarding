@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">擷取並轉遞</string>
   <string name="toast_no_app_is_installed_for">未安裝應用程式以開啟</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 需要更高的版本才能編輯應用程式設定</string>
+  <string name="pref_force_chooser_dialog_title">強制選擇器對話框</string>
+  <string name="pref_force_chooser_dialog_summary_on" >開: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">開: intent</string>
 </resources>

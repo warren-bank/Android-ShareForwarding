@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Ekstrakt i prosljeđenje</string>
   <string name="toast_no_app_is_installed_for">Nijedna aplikacija nije instalirana za otvaranje</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 ili viši je potreban za uređivanje postavki aplikacije</string>
+  <string name="pref_force_chooser_dialog_title">Dijalog forsiranja forsiranja</string>
+  <string name="pref_force_chooser_dialog_summary_on" >otvori: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">otvori: intent</string>
 </resources>

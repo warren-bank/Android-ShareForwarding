@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Echdynnu a ymlaen</string>
   <string name="toast_no_app_is_installed_for">Nid oes ap wedi ei osod i agor</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 neu mae angen uwch i olygu gosodiadau\'r ap</string>
+  <string name="pref_force_chooser_dialog_title">Gorfodi deialog dewisydd</string>
+  <string name="pref_force_chooser_dialog_summary_on" >agor: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">agor: intent</string>
 </resources>

@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">抽出および転送</string>
   <string name="toast_no_app_is_installed_for">開くアプリケーションがインストールされていません</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 または、アプリケーション設定を編集するには、それ以上の</string>
+  <string name="pref_force_chooser_dialog_title">強制選択機能ダイアログ</string>
+  <string name="pref_force_chooser_dialog_summary_on" >オープン: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">オープン: intent</string>
 </resources>

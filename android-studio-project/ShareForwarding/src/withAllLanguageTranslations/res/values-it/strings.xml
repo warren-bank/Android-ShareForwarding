@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Estratto e avanti</string>
   <string name="toast_no_app_is_installed_for">Nessuna app è installata per aprire</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 o superiore è richiesto per modificare le impostazioni dell\'app</string>
+  <string name="pref_force_chooser_dialog_title">Finestra di selezione della forza</string>
+  <string name="pref_force_chooser_dialog_summary_on" >aperto: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">aperto: intent</string>
 </resources>

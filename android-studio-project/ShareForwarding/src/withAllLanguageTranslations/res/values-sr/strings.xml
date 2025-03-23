@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Распакуј и проследите</string>
   <string name="toast_no_app_is_installed_for">Ниједна апликација није инсталирана за отварање</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 или већи је потребан за уређивање поставки апликације</string>
+  <string name="pref_force_chooser_dialog_title">Дијалог за избирљиве силе</string>
+  <string name="pref_force_chooser_dialog_summary_on" >отвори: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">отвори: intent</string>
 </resources>

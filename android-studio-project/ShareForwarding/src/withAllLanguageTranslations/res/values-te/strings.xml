@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">నివేదిక మరియు ముందుకు</string>
   <string name="toast_no_app_is_installed_for">ఓపెన్ కు ఏ యాప్ స్థాపించబడలేదు</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 లేదా ఎక్కువ అప్డేట్ అమరికలను ఎదివరించవలసిన అవసరము</string>
+  <string name="pref_force_chooser_dialog_title">ఫోర్స్ను ఎంచుకున్న డైలాగును</string>
+  <string name="pref_force_chooser_dialog_summary_on" >తెరువు: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">తెరువు: intent</string>
 </resources>

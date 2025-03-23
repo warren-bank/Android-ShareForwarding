@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Väljavõte ja edasiliikumise</string>
   <string name="toast_no_app_is_installed_for">App pole paigaldatud</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 või kõrgem on vajalik rakenduse seadistuste redigeerimiseks</string>
+  <string name="pref_force_chooser_dialog_title">Töökoseri dialoog</string>
+  <string name="pref_force_chooser_dialog_summary_on" >open: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">open: intent</string>
 </resources>

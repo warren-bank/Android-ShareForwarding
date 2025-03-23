@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Extrahovat a předat</string>
   <string name="toast_no_app_is_installed_for">Není nainstalována žádná aplikace k otevření</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 nebo vyšší je zapotřebí k úpravě nastavení aplikace</string>
+  <string name="pref_force_chooser_dialog_title">Vynutit dialogové okno výběru</string>
+  <string name="pref_force_chooser_dialog_summary_on" >open, otevřít: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">open, otevřít: intent</string>
 </resources>

@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Izvleček in posredi</string>
   <string name="toast_no_app_is_installed_for">Nobena aplikacija ni nameščena za odpiranje</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 ali višja je zahtevana za urejanje nastavitev aplikacije</string>
+  <string name="pref_force_chooser_dialog_title">Vsili pogovorno okno za izbiralnik</string>
+  <string name="pref_force_chooser_dialog_summary_on" >odpri: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">odpri: intent</string>
 </resources>

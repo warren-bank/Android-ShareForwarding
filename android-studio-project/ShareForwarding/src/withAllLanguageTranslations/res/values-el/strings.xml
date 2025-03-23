@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Εξαγωγή και προώθηση</string>
   <string name="toast_no_app_is_installed_for">Δεν έχει εγκατασταθεί εφαρμογή για άνοιγμα.</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 ή υψηλότερη απαιτείται για την τροποποίηση των ρυθμίσεων εφαρμογής</string>
+  <string name="pref_force_chooser_dialog_title">Πλαίσιο διαλόγου Επιλογών</string>
+  <string name="pref_force_chooser_dialog_summary_on" >ανοικτή.: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">ανοικτή.: intent</string>
 </resources>

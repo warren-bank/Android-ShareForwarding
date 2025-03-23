@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">חילוץ וקדימה</string>
   <string name="toast_no_app_is_installed_for">לא מותקן יישום פתוח</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 או גבוה יותר דרוש לעריכת הגדרות היישומון.</string>
+  <string name="pref_force_chooser_dialog_title">תיבת דו-שיח לבחירת כוח</string>
+  <string name="pref_force_chooser_dialog_summary_on" >פתוח: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">פתוח: intent</string>
 </resources>

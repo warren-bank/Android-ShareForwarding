@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">추출 및 전달</string>
   <string name="toast_no_app_is_installed_for">열려 있는 애플리케이션이 설치되어 있지 않음</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 앱 설정을 편집하려면 더 높은 시간이 필요합니다.</string>
+  <string name="pref_force_chooser_dialog_title">강제 선택기 대화 상자</string>
+  <string name="pref_force_chooser_dialog_summary_on" >열려 있는: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">열려 있는: intent</string>
 </resources>

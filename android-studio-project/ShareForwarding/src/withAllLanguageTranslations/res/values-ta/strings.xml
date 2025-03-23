@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">கடைசியாக மற்றும் முன்னேற்றம்</string>
   <string name="toast_no_app_is_installed_for">திறப்பதற்கு பயன்பாடு நிறுவப்படவில்லை</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 அல்லது அதிக பயன்பாடு அமைப்புகளை திருத்த தேவைப்படுகிறது.</string>
+  <string name="pref_force_chooser_dialog_title">தேர்வு செய்யப்பட்ட உரையாடல்</string>
+  <string name="pref_force_chooser_dialog_summary_on" >திறந்த: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">திறந்த: intent</string>
 </resources>

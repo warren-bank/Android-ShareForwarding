@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Extraction et retransmission</string>
   <string name="toast_no_app_is_installed_for">Aucune application n\'est installée pour ouvrir</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 ou supérieure est requise pour modifier les paramètres de l\'application</string>
+  <string name="pref_force_chooser_dialog_title">Boîte de dialogue sélecteur de force</string>
+  <string name="pref_force_chooser_dialog_summary_on" >ouvrir: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">ouvrir: intent</string>
 </resources>

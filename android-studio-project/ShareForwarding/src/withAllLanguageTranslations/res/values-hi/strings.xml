@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">निकालें और आगे</string>
   <string name="toast_no_app_is_installed_for">खोलने के लिए कोई एप्लिकेशन संस्थापित नहीं है</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 या अधिक के लिए एप्लिकेशन सेटिंग संपादित करने के लिए आवश्यक है</string>
+  <string name="pref_force_chooser_dialog_title">चयनक संवाद बाध्य करें</string>
+  <string name="pref_force_chooser_dialog_summary_on" >खुला: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">खुला: intent</string>
 </resources>

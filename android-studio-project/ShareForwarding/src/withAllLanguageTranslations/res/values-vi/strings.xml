@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Chiết xuất và tiến lên</string>
   <string name="toast_no_app_is_installed_for">Không có ứng dụng được cài đặt để mở</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 hoặc cao hơn được yêu cầu để sửa cài đặt ứng dụng</string>
+  <string name="pref_force_chooser_dialog_title">Hộp thoại chọn lựa</string>
+  <string name="pref_force_chooser_dialog_summary_on" >mở: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">mở: intent</string>
 </resources>

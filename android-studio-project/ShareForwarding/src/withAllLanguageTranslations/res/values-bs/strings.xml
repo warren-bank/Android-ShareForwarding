@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Izvadite i proslijedite</string>
   <string name="toast_no_app_is_installed_for">Nijedna aplikacija nije instalirana za otvaranje</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 ili više, potrebno je urediti postavke aplikacije</string>
+  <string name="pref_force_chooser_dialog_title">Forsiraj dijalog biranja</string>
+  <string name="pref_force_chooser_dialog_summary_on" >otvori: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">otvori: intent</string>
 </resources>

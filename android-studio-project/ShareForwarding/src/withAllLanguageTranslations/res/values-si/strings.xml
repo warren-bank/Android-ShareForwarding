@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">පිටවීම සහ ඉදිරියට</string>
   <string name="toast_no_app_is_installed_for">ඇප් එකක් විවෘත කිරීමට ස්ථාපනය කර නැත</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 හෝ ඉහළ අවශ්ය වන්නේ ඇප් සැකසුම්</string>
+  <string name="pref_force_chooser_dialog_title">තේරීමේ සංවාදය බල කරන්න</string>
+  <string name="pref_force_chooser_dialog_summary_on" >විවෘත කරන්න: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">විවෘත කරන්න: intent</string>
 </resources>

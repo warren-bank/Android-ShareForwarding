@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Uute ja eteenpäin</string>
   <string name="toast_no_app_is_installed_for">Sovellusta ei ole asennettu</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 Sovellusasetusten muokkaus edellyttää tai sitä tarvitaan</string>
+  <string name="pref_force_chooser_dialog_title">Pakottaa valintaikkunan</string>
+  <string name="pref_force_chooser_dialog_summary_on" >Avoin: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">Avoin: intent</string>
 </resources>

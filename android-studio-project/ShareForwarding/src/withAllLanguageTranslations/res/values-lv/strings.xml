@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Izraksts un uz priekšu</string>
   <string name="toast_no_app_is_installed_for">Nav instalēta lietotne, lai atvērtu</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 vai augstāks ir nepieciešams, lai rediģētu lietotnes iestatījumus</string>
+  <string name="pref_force_chooser_dialog_title">Spēka aizķeršanās logs</string>
+  <string name="pref_force_chooser_dialog_summary_on" >,: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">,: intent</string>
 </resources>

@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Extrahieren und weiterleiten</string>
   <string name="toast_no_app_is_installed_for">Es wird keine App zum Öffnen installiert.</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 oder höher ist erforderlich, um die App-Einstellungen zu bearbeiten</string>
+  <string name="pref_force_chooser_dialog_title">Dialog \'Auswahlser erzwingen\'</string>
+  <string name="pref_force_chooser_dialog_summary_on" >Öffnen: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">Öffnen: intent</string>
 </resources>

@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Извлечь и переслать</string>
   <string name="toast_no_app_is_installed_for">Не установлено приложение для открытия</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 или выше требуется для изменения параметров приложения</string>
+  <string name="pref_force_chooser_dialog_title">Диалоговое окно средства выбора сил</string>
+  <string name="pref_force_chooser_dialog_summary_on" >открытая: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">открытая: intent</string>
 </resources>

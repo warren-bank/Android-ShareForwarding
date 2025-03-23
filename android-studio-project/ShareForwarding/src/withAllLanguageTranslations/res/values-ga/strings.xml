@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Fusa agus cuir ar aghaidh</string>
   <string name="toast_no_app_is_installed_for">Níl aon app suiteáilte le hoscailt</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 nó is airde de dhíth chun na socruithe app a chur in eagar</string>
+  <string name="pref_force_chooser_dialog_title">Dialóg chooser i bhfeidhm</string>
+  <string name="pref_force_chooser_dialog_summary_on" >Oscail: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">Oscail: intent</string>
 </resources>

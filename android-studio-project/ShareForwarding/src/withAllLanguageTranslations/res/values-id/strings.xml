@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Ekstrak dan forward</string>
   <string name="toast_no_app_is_installed_for">Tidak ada aplikasi yang dipasang untuk dibuka</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 atau lebih tinggi diperlukan untuk mengedit pengaturan aplikasi</string>
+  <string name="pref_force_chooser_dialog_title">Dialog pemilih paksa</string>
+  <string name="pref_force_chooser_dialog_summary_on" >Buka: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">Buka: intent</string>
 </resources>

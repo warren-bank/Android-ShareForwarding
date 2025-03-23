@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">અર્ક અને આગળ ધપાવો</string>
   <string name="toast_no_app_is_installed_for">ખોલવા માટે કોઈ કાર્યક્રમ સ્થાપિત થયેલ નથી</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 અથવા વધારે ને એપ સુયોજનોને ફેરફાર કરવા માટે જરૂરી છે</string>
+  <string name="pref_force_chooser_dialog_title">પસંદ કરનાર સંવાદને દબાણ કરો</string>
+  <string name="pref_force_chooser_dialog_summary_on" >ખોલો: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">ખોલો: intent</string>
 </resources>

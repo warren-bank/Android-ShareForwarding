@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Kivonat és előre</string>
   <string name="toast_no_app_is_installed_for">Nincs telepítve alkalmazás a megnyitásra</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 Vagy magasabb, az alkalmazás beállításainak szerkesztéséhez</string>
+  <string name="pref_force_chooser_dialog_title">Gyorsválasztó párbeszédablak</string>
+  <string name="pref_force_chooser_dialog_summary_on" >Nyitott: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">Nyitott: intent</string>
 </resources>

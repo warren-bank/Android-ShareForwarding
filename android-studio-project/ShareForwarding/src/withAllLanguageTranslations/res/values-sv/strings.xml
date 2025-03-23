@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Extrahera och vidarebefordra</string>
   <string name="toast_no_app_is_installed_for">Ingen app är installerad för att öppna</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 eller senare krävs för att ändra appinställningarna</string>
+  <string name="pref_force_chooser_dialog_title">Tvinga chooser-dialogruta</string>
+  <string name="pref_force_chooser_dialog_summary_on" >öppna: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">öppna: intent</string>
 </resources>

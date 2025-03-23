@@ -1,4 +1,8 @@
 <resources>
   <string name="intent_filter_label">Wyodrębnianie i przekazywanie</string>
   <string name="toast_no_app_is_installed_for">Żadna aplikacja nie jest zainstalowana do otwarcia</string>
+  <string name="toast_settings_requires_api_11">Android 3.0 lub wyższe jest wymagane do edycji ustawień aplikacji</string>
+  <string name="pref_force_chooser_dialog_title">Wymuś okno dialogowe wyboru</string>
+  <string name="pref_force_chooser_dialog_summary_on" >otwarte: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">otwarte: intent</string>
 </resources>
