@@ -69,7 +69,10 @@ public class MainActivity extends Activity {
     Matcher matcher = pattern.matcher(text);
     if (matcher.find()) {
       Intent intent = new Intent(Intent.ACTION_VIEW);
-      intent.setData(Uri.parse(matcher.group()));
+      if (Build.VERSION.SDK_INT >= 16)
+        intent.setDataAndNormalize(Uri.parse(matcher.group()));
+      else
+        intent.setData(Uri.parse(matcher.group()));
       start_activity(intent);
       handled = true;
     }
