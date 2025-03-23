@@ -23,5 +23,17 @@
       </intent-filter>
     </activity>
 
+    <activity
+      android:name=".settings.SettingsActivity"
+      android:theme="@android:style/Theme.NoTitleBar"
+      android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+      android:launchMode="standard"
+      android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
   </application>
 </manifest>

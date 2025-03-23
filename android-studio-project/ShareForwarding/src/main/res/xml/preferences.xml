@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+    android:title="@string/app_name">
+
+    <CheckBoxPreference
+      android:key="@string/pref_force_chooser_dialog_key"
+      android:title="@string/pref_force_chooser_dialog_title"
+      android:summaryOn="@string/pref_force_chooser_dialog_summary_on"
+      android:summaryOff="@string/pref_force_chooser_dialog_summary_off"
+      android:defaultValue="@string/pref_force_chooser_dialog_default" />
+
+  </PreferenceCategory>
+</PreferenceScreen>

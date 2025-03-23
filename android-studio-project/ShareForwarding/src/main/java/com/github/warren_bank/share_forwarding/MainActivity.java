@@ -1,5 +1,7 @@
 package com.github.warren_bank.share_forwarding;
 
+import com.github.warren_bank.share_forwarding.settings.SettingsUtils;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -101,6 +103,10 @@ public class MainActivity extends Activity {
 
   private void start_activity(Intent intent) {
     try {
+      if (SettingsUtils.getForceChooserDialogPreference(MainActivity.this)) {
+        intent = Intent.createChooser(intent, /* title= */ null);
+      }
+
       startActivity(intent);
     }
     catch(ActivityNotFoundException e) {
@@ -109,6 +115,16 @@ public class MainActivity extends Activity {
         getString(R.string.toast_no_app_is_installed_for) + ":\n\n" + intent.getDataString(),
         Toast.LENGTH_SHORT
       ).show();
+    }
+    catch(Exception e) {
+      String message = e.getMessage();
+      if (message != null) {
+        Toast.makeText(
+          MainActivity.this,
+          message,
+          Toast.LENGTH_SHORT
+        ).show();
+      }
     }
   }
 

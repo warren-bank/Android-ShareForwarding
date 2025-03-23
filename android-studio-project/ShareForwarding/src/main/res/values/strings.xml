@@ -4,4 +4,14 @@
 
   <string name="intent_filter_label">Extract and forward</string>
   <string name="toast_no_app_is_installed_for">No app is installed to open</string>
+
+  <!-- Settings -->
+  <string name="toast_settings_requires_api_11">Android 3.0 or higher is required to edit the app settings</string>
+
+  <!-- Settings: Force chooser dialog -->
+  <string translatable="false" name="pref_force_chooser_dialog_key">pref_force_chooser_dialog</string>
+  <string translatable="false" name="pref_force_chooser_dialog_default">false</string>
+  <string name="pref_force_chooser_dialog_title">Force chooser dialog</string>
+  <string name="pref_force_chooser_dialog_summary_on" >open: Intent.createChooser(intent)</string>
+  <string name="pref_force_chooser_dialog_summary_off">open: intent</string>
 </resources>
