@@ -10,5 +10,19 @@
       android:summaryOff="@string/pref_force_chooser_dialog_summary_off"
       android:defaultValue="@string/pref_force_chooser_dialog_default" />
 
+    <CheckBoxPreference
+      android:key="@string/pref_force_text_html_key"
+      android:title="@string/pref_force_text_html_title"
+      android:summaryOn="@string/pref_force_text_html_summary_on"
+      android:summaryOff="@string/pref_force_text_html_summary_off"
+      android:defaultValue="@string/pref_force_text_html_default" />
+
+    <CheckBoxPreference
+      android:key="@string/pref_convert_geo_to_googlemaps_key"
+      android:title="@string/pref_convert_geo_to_googlemaps_title"
+      android:summaryOn="@string/pref_convert_geo_to_googlemaps_summary_on"
+      android:summaryOff="@string/pref_convert_geo_to_googlemaps_summary_off"
+      android:defaultValue="@string/pref_convert_geo_to_googlemaps_default" />
+
   </PreferenceCategory>
 </PreferenceScreen>

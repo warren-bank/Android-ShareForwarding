@@ -26,4 +26,32 @@ public class SettingsUtils {
     return prefs.getBoolean(pref_key, val_default);
   }
 
+  // --------------------
+
+  public static boolean getForceTextHtmlPreference(Context context) {
+    return getForceTextHtmlPreference(context, getPrefs(context));
+  }
+
+  private static boolean getForceTextHtmlPreference(Context context, SharedPreferences prefs) {
+    String pref_key     = context.getString(R.string.pref_force_text_html_key);
+    String pref_default = context.getString(R.string.pref_force_text_html_default);
+    boolean val_default = "true".equals(pref_default);
+
+    return prefs.getBoolean(pref_key, val_default);
+  }
+
+  // --------------------
+
+  public static boolean getConvertGeoToGoogleMapsPreference(Context context) {
+    return getConvertGeoToGoogleMapsPreference(context, getPrefs(context));
+  }
+
+  private static boolean getConvertGeoToGoogleMapsPreference(Context context, SharedPreferences prefs) {
+    String pref_key     = context.getString(R.string.pref_convert_geo_to_googlemaps_key);
+    String pref_default = context.getString(R.string.pref_convert_geo_to_googlemaps_default);
+    boolean val_default = "true".equals(pref_default);
+
+    return prefs.getBoolean(pref_key, val_default);
+  }
+
 }

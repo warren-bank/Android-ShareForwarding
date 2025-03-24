@@ -73,10 +73,29 @@ public class MainActivity extends Activity {
         intent.setDataAndNormalize(Uri.parse(matcher.group()));
       else
         intent.setData(Uri.parse(matcher.group()));
+      force_text_html(intent);
       start_activity(intent);
       handled = true;
     }
     return handled;
+  }
+
+  private void force_text_html(Intent intent) {
+    try {
+      String scheme = intent.getData().getScheme().toLowerCase();
+      if (!scheme.equals("http") && !scheme.equals("https")) return;
+
+      String type = intent.resolveType(MainActivity.this);
+      if ((type != null) && !type.isEmpty() && !type.equals("*/*")) return;
+
+      if (!SettingsUtils.getForceTextHtmlPreference(MainActivity.this)) return;
+
+      intent.setDataAndType(
+        intent.getData(),
+        "text/html"
+      );
+    }
+    catch(Exception e) {}
   }
 
   // https://developer.android.com/guide/components/intents-common.html#Maps
@@ -89,11 +108,19 @@ public class MainActivity extends Activity {
       String latitude  = matcher.group(1);
       String longitude = matcher.group(2);
       Intent intent = new Intent(Intent.ACTION_VIEW);
-      intent.setData(Uri.parse("geo:" + latitude + "," + longitude));
+      intent.setData(Uri.parse(
+        get_geo_Uri(latitude, longitude)
+      ));
       start_activity(intent);
       handled = true;
     }
     return handled;
+  }
+
+  private String get_geo_Uri(String latitude, String longitude) {
+    return (SettingsUtils.getConvertGeoToGoogleMapsPreference(MainActivity.this))
+      ? ("https://maps.google.com/?ll=" + latitude + "," + longitude)
+      : ("geo:" + latitude + "," + longitude);
   }
 
   // https://developer.android.com/guide/components/intents-common.html#Phone
