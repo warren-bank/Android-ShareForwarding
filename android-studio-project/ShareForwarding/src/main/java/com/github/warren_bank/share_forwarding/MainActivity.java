@@ -157,6 +157,8 @@ public class MainActivity extends Activity {
 
   private void start_activity(Intent intent) {
     try {
+      intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
       if (SettingsUtils.getForceChooserDialogPreference(MainActivity.this)) {
         intent = createChooser(intent);
       }
