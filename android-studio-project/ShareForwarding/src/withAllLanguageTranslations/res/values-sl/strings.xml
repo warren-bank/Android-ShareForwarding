@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Vsili pogovorno okno za izbiralnik</string>
   <string name="pref_force_chooser_dialog_summary_on" >odpri: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">odpri: intent</string>
-  <string name="pref_force_text_html_title">Sila "text/html" tip: če je shema "http" ali "https" in tipa ni mogoče sklepati</string>
+  <string name="pref_force_text_html_title">Sila \"text/html\" tip: če je shema \"http\" ali \"https\" in tipa ni mogoče sklepati</string>
   <string name="pref_force_text_html_summary_on" >odpiranje: s spletnim brskal</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Pretvori "geo:" koordinate do Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Pretvori \"geo:\" koordinate do Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >odprto: z Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">odpri: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">odpri: \"geo:\" intent</string>
 </resources>

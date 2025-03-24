@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Hộp thoại chọn lựa</string>
   <string name="pref_force_chooser_dialog_summary_on" >mở: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">mở: intent</string>
-  <string name="pref_force_text_html_title">Bắt buộc "text/html" loại: khi sơ đồ "http" or "https" và không thể suy ra kiểu</string>
+  <string name="pref_force_text_html_title">Bắt buộc \"text/html\" loại: khi sơ đồ \"http\" or \"https\" và không thể suy ra kiểu</string>
   <string name="pref_force_text_html_summary_on" >mở: với trình duyệt web</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Chuyển đổi "geo:" coordinates to Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Chuyển đổi \"geo:\" coordinates to Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >mở: với Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">mở: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">mở: \"geo:\" intent</string>
 </resources>

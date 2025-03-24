@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">强制选择器对话框</string>
   <string name="pref_force_chooser_dialog_summary_on" >开: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">开: intent</string>
-  <string name="pref_force_text_html_title">力量 "text/html" 类型: 当方案为 "http" 或 "https" 无法推断类型</string>
+  <string name="pref_force_text_html_title">力量 \"text/html\" 类型: 当方案为 \"http\" 或 \"https\" 无法推断类型</string>
   <string name="pref_force_text_html_summary_on" >打开: 使用 Web 浏览器</string>
-  <string name="pref_convert_geo_to_googlemaps_title">转换 "geo:" 坐标 Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">转换 \"geo:\" 坐标 Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >打开: 使用 Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">开: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">开: \"geo:\" intent</string>
 </resources>

@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Paksa dialog pemilih</string>
   <string name="pref_force_chooser_dialog_summary_on" >buka: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">buka: intent</string>
-  <string name="pref_force_text_html_title">Paksa "text/html" jenis: bila skema adalah "http" atau "https" dan jenis tidak boleh ditangguh</string>
+  <string name="pref_force_text_html_title">Paksa \"text/html\" jenis: bila skema adalah \"http\" atau \"https\" dan jenis tidak boleh ditangguh</string>
   <string name="pref_force_text_html_summary_on" >buka: dengan pelayar sesawang</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Tukar "geo:" koordinat ke Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Tukar \"geo:\" koordinat ke Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >buka: dengan Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">buka: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">buka: \"geo:\" intent</string>
 </resources>

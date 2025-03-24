@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Πλαίσιο διαλόγου Επιλογών</string>
   <string name="pref_force_chooser_dialog_summary_on" >ανοικτή.: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">ανοικτή.: intent</string>
-  <string name="pref_force_text_html_title">-Δύναμη. "text/html" τύπος: όταν το σχήμα είναι "http" ή "https" και το είδος δεν μπορεί να συναχθεί.</string>
+  <string name="pref_force_text_html_title">-Δύναμη. \"text/html\" τύπος: όταν το σχήμα είναι \"http\" ή \"https\" και το είδος δεν μπορεί να συναχθεί.</string>
   <string name="pref_force_text_html_summary_on" >άνοιγμα: με πρόγραμμα πλοήγησης</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Μετατροπή: "geo:" (\') Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Μετατροπή: \"geo:\" (\') Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >ανοικτή: με Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">ανοικτή.: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">ανοικτή.: \"geo:\" intent</string>
 </resources>

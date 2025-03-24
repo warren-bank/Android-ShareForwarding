@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Zorlamalı seçme iletişim kutusu</string>
   <string name="pref_force_chooser_dialog_summary_on" >aç: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">aç: intent</string>
-  <string name="pref_force_text_html_title">Kuvvet "text/html" tip: şema ne zaman "http" ya da "https" ve tip çıkarılamaz</string>
+  <string name="pref_force_text_html_title">Kuvvet \"text/html\" tip: şema ne zaman \"http\" ya da \"https\" ve tip çıkarılamaz</string>
   <string name="pref_force_text_html_summary_on" >açık: web tarayıcısı ile</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Dönüştür "geo:" koordinatlar Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Dönüştür \"geo:\" koordinatlar Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >açık: ile Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">aç: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">aç: \"geo:\" intent</string>
 </resources>

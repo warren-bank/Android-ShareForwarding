@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">തെരഞ്ഞെടുക്കുന്ന ഡയലോഗ് ഫോഴ്സ് ചെയ്യുക</string>
   <string name="pref_force_chooser_dialog_summary_on" >തുറക്കുക: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">തുറക്കുക: intent</string>
-  <string name="pref_force_text_html_title">ഫോഴ്സ് "text/html" തരം: എപ്പോഴാണ് പദ്ധതി "http" അല്ലെങ്കില് "https" ടൈപ്പ് ചെയ്യുവാന് സാധ്യമല്ല</string>
+  <string name="pref_force_text_html_title">ഫോഴ്സ് \"text/html\" തരം: എപ്പോഴാണ് പദ്ധതി \"http\" അല്ലെങ്കില് \"https\" ടൈപ്പ് ചെയ്യുവാന് സാധ്യമല്ല</string>
   <string name="pref_force_text_html_summary_on" >തുറക്കുക: വെബ് ബ്രൌസർ ഉപയോഗിച്ച്</string>
-  <string name="pref_convert_geo_to_googlemaps_title">വേര്തിരിക്കുക "geo:" ഓര്മ്മക്കെട്ടുകള് Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">വേര്തിരിക്കുക \"geo:\" ഓര്മ്മക്കെട്ടുകള് Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >തുറക്കുക: Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">തുറക്കുക: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">തുറക്കുക: \"geo:\" intent</string>
 </resources>

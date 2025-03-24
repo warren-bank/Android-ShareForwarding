@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">فورس کے چیزر ڈائیلاگ</string>
   <string name="pref_force_chooser_dialog_summary_on" >کھلا: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">کھلا: intent</string>
-  <string name="pref_force_text_html_title">فورس "text/html" قسم: سکیم کب ہوتی ہے "http" یا "https" اور قسم قیاس نہیں کی جا سکتی.</string>
+  <string name="pref_force_text_html_title">فورس \"text/html\" قسم: سکیم کب ہوتی ہے \"http\" یا \"https\" اور قسم قیاس نہیں کی جا سکتی.</string>
   <string name="pref_force_text_html_summary_on" >کھلی: ویب براؤزر کے ساتھ</string>
-  <string name="pref_convert_geo_to_googlemaps_title">بات چیت "geo:" کے نقاط Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">بات چیت \"geo:\" کے نقاط Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >کھلا: ساتھ Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">کھلا: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">کھلا: \"geo:\" intent</string>
 </resources>

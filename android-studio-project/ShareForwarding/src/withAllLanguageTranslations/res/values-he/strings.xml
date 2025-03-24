@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">תיבת דו-שיח לבחירת כוח</string>
   <string name="pref_force_chooser_dialog_summary_on" >פתוח: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">פתוח: intent</string>
-  <string name="pref_force_text_html_title">כוח "text/html" סוג: כשתוכנית היא "http" או "https" לא ניתן לדחות את הסוג.</string>
+  <string name="pref_force_text_html_title">כוח \"text/html\" סוג: כשתוכנית היא \"http\" או \"https\" לא ניתן לדחות את הסוג.</string>
   <string name="pref_force_text_html_summary_on" >פתוח: עם דפדפן אינטרנט</string>
-  <string name="pref_convert_geo_to_googlemaps_title">המרה "geo:" קואורדינטות ל - Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">המרה \"geo:\" קואורדינטות ל - Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >פתוח: עם Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">פתוח: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">פתוח: \"geo:\" intent</string>
 </resources>

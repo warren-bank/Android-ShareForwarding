@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">ఫోర్స్ను ఎంచుకున్న డైలాగును</string>
   <string name="pref_force_chooser_dialog_summary_on" >తెరువు: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">తెరువు: intent</string>
-  <string name="pref_force_text_html_title">ఫోర్స్ "text/html" వర్గం: స్కీమా ఉన్నప్పుడు "http" లేదా "https" మరియు రకము ఇన్స్పియర్ చేయబడలేదు</string>
+  <string name="pref_force_text_html_title">ఫోర్స్ \"text/html\" వర్గం: స్కీమా ఉన్నప్పుడు \"http\" లేదా \"https\" మరియు రకము ఇన్స్పియర్ చేయబడలేదు</string>
   <string name="pref_force_text_html_summary_on" >తెరువు: వెబ్ బ్రౌజర్తో</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Convert "geo:" అక్షాంశం Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Convert \"geo:\" అక్షాంశం Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >తెరువు: తో Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">తెరువు: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">తెరువు: \"geo:\" intent</string>
 </resources>

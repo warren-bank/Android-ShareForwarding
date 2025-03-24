@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">บังคับให้เลือกไดอะล็อกตัวเลือก</string>
   <string name="pref_force_chooser_dialog_summary_on" >เปิด: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">เปิด: intent</string>
-  <string name="pref_force_text_html_title">บังคับ "text/html" ชนิด: เมื่อสกีมาคือ "http" หรือ "https" และชนิดไม่สามารถอนุมานได้</string>
+  <string name="pref_force_text_html_title">บังคับ \"text/html\" ชนิด: เมื่อสกีมาคือ \"http\" หรือ \"https\" และชนิดไม่สามารถอนุมานได้</string>
   <string name="pref_force_text_html_summary_on" >เปิด: ที่มีเว็บเบราว์เซอร์</string>
-  <string name="pref_convert_geo_to_googlemaps_title">แปลง "geo:" พิกัดไปยัง Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">แปลง \"geo:\" พิกัดไปยัง Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >Open: กับ Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">เปิด: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">เปิด: \"geo:\" intent</string>
 </resources>

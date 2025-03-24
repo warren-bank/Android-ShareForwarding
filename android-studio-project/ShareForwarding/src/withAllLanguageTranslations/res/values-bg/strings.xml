@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Диалог за избор на сила</string>
   <string name="pref_force_chooser_dialog_summary_on" >-Отвори: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">-Отвори: intent</string>
-  <string name="pref_force_text_html_title">Сила: "text/html" тип: когато схемата е "http" или ... "https" и тип не може да бъде изведен</string>
+  <string name="pref_force_text_html_title">Сила: \"text/html\" тип: когато схемата е \"http\" или ... \"https\" и тип не може да бъде изведен</string>
   <string name="pref_force_text_html_summary_on" >отворен: с уеб браузър</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Конвертиране "geo:" Координати: Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Конвертиране \"geo:\" Координати: Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >отворен: с Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">-Отвори: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">-Отвори: \"geo:\" intent</string>
 </resources>

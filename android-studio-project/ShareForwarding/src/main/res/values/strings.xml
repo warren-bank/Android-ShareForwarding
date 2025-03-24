@@ -15,17 +15,17 @@
   <string name="pref_force_chooser_dialog_summary_on" >open: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">open: intent</string>
 
-  <!-- Settings: Force "text/html" type -->
+  <!-- Settings: Force \"text/html\" type -->
   <string translatable="false" name="pref_force_text_html_key">pref_force_text_html</string>
   <string translatable="false" name="pref_force_text_html_default">false</string>
-  <string name="pref_force_text_html_title">Force "text/html" type: when scheme is "http" or "https" and type cannot be inferred</string>
+  <string name="pref_force_text_html_title">Force \"text/html\" type: when scheme is \"http\" or \"https\" and type cannot be inferred</string>
   <string name="pref_force_text_html_summary_on" >open: with web browser</string>
   <string name="pref_force_text_html_summary_off">@string/pref_force_chooser_dialog_summary_off</string>
 
-  <!-- Settings: Convert "geo:" coordinates to Google Maps URI -->
+  <!-- Settings: Convert \"geo:\" coordinates to Google Maps URI -->
   <string translatable="false" name="pref_convert_geo_to_googlemaps_key">pref_convert_geo_to_googlemaps</string>
   <string translatable="false" name="pref_convert_geo_to_googlemaps_default">false</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Convert "geo:" coordinates to Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Convert \"geo:\" coordinates to Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >open: with Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">open: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">open: \"geo:\" intent</string>
 </resources>

@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Spēka aizķeršanās logs</string>
   <string name="pref_force_chooser_dialog_summary_on" >,: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">,: intent</string>
-  <string name="pref_force_text_html_title">Spēks "text/html" tips: kad shēma ir "http" , vai "https" un veids nevar izsecināt</string>
+  <string name="pref_force_text_html_title">Spēks \"text/html\" tips: kad shēma ir \"http\" , vai \"https\" un veids nevar izsecināt</string>
   <string name="pref_force_text_html_summary_on" >atvērta: ar interneta pārlūku</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Konvertēt "geo:" , kas Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Konvertēt \"geo:\" , kas Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >atvērta: ar Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">,: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">,: \"geo:\" intent</string>
 </resources>

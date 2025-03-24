@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Jėgos parinkiklio dialogas</string>
   <string name="pref_force_chooser_dialog_summary_on" >Atverti: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">Atverti: intent</string>
-  <string name="pref_force_text_html_title">Jėga "text/html" tipas: kai schema yra "http" arba "https" ir tipas negali būti numanytas</string>
+  <string name="pref_force_text_html_title">Jėga \"text/html\" tipas: kai schema yra \"http\" arba \"https\" ir tipas negali būti numanytas</string>
   <string name="pref_force_text_html_summary_on" >atvira: su žiniatinklio naršykle</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Konvertuoti "geo:" Koordinatės Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Konvertuoti \"geo:\" Koordinatės Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >atvira: su Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">Atverti: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">Atverti: \"geo:\" intent</string>
 </resources>

@@ -5,9 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Tvinga chooser-dialogruta</string>
   <string name="pref_force_chooser_dialog_summary_on" >öppna: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">öppna: intent</string>
-  <string name="pref_force_text_html_title">Styrka "text/html" typ: när systemet är "http" eller "https" och typ kan inte härledas</string>
+  <string name="pref_force_text_html_title">Styrka \"text/html\" typ: när systemet är \"http\" eller \"https\" och typ kan inte härledas</string>
   <string name="pref_force_text_html_summary_on" >öppna: med webbläsare</string>
-  <string name="pref_convert_geo_to_googlemaps_title">Konvertera "geo:" koordinater till Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Konvertera \"geo:\" koordinater till Google Maps URI</string>
   <string name="pref_convert_geo_to_googlemaps_summary_on" >öppna: med Google Maps URI</string>
-  <string name="pref_convert_geo_to_googlemaps_summary_off">öppna: "geo:" intent</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">öppna: \"geo:\" intent</string>
 </resources>
