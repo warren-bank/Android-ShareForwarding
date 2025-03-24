@@ -12,6 +12,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.util.Patterns;
+import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -73,20 +74,37 @@ public class MainActivity extends Activity {
         intent.setDataAndNormalize(Uri.parse(matcher.group()));
       else
         intent.setData(Uri.parse(matcher.group()));
-      force_text_html(intent);
+      set_explicit_type(intent);
       start_activity(intent);
       handled = true;
     }
     return handled;
   }
 
+  private void set_explicit_type(Intent intent) {
+    try {
+      String ext  = MimeTypeMap.getFileExtensionFromUrl(intent.getDataString());
+      String type = ((ext == null) || ext.isEmpty()) ? null : MimeTypeMap.getSingleton().getMimeTypeFromExtension(ext);
+
+      if (type != null) {
+        type = type.toLowerCase();
+
+        intent.setDataAndType(
+          intent.getData(),
+          type
+        );
+      }
+      else {
+        force_text_html(intent);
+      }
+    }
+    catch(Exception e) {}
+  }
+
   private void force_text_html(Intent intent) {
     try {
       String scheme = intent.getData().getScheme().toLowerCase();
       if (!scheme.equals("http") && !scheme.equals("https")) return;
-
-      String type = intent.resolveType(MainActivity.this);
-      if ((type != null) && !type.isEmpty() && !type.equals("*/*")) return;
 
       if (!SettingsUtils.getForceTextHtmlPreference(MainActivity.this)) return;
 
