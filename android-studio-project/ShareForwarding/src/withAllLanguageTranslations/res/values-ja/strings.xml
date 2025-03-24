@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">強制選択機能ダイアログ</string>
   <string name="pref_force_chooser_dialog_summary_on" >オープン: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">オープン: intent</string>
+  <string name="pref_force_text_html_title">フォース "text/html" タイプ: スキームが "http" 又は "https" および型を推論できません</string>
+  <string name="pref_force_text_html_summary_on" >オープン: Web ブラウザー</string>
+  <string name="pref_convert_geo_to_googlemaps_title">コンバート "geo:" 座標先 Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >オープン: 使用 Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">オープン: "geo:" intent</string>
 </resources>

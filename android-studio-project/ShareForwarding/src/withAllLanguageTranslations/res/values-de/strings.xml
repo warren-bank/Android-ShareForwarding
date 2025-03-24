@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Dialog \'Auswahlser erzwingen\'</string>
   <string name="pref_force_chooser_dialog_summary_on" >Öffnen: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">Öffnen: intent</string>
+  <string name="pref_force_text_html_title">Kraft "text/html" Typ: Wenn Schema "http" oder "https" Typ und Typ können nicht abgeleitet werden.</string>
+  <string name="pref_force_text_html_summary_on" >Öffnen: mit Web-Browser</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Konvertieren "geo:" Koordinaten Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >Offen: mit Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">Öffnen: "geo:" intent</string>
 </resources>

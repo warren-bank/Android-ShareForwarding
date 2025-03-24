@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">\"Forsiraj\" dijalog.</string>
   <string name="pref_force_chooser_dialog_summary_on" >Otvori.: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">Otvori.: intent</string>
+  <string name="pref_force_text_html_title">Da. "text/html" Kada se radi o prevari, "http" ili ... "https" i tip ne može biti zaključivan</string>
+  <string name="pref_force_text_html_summary_on" >Otvoreno: s web preglednikom</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Prevod "geo:" Koordinate za ... Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >Otvorena vrata: Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">Otvori.: "geo:" intent</string>
 </resources>

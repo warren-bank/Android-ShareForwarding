@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Boîte de dialogue sélecteur de force</string>
   <string name="pref_force_chooser_dialog_summary_on" >ouvrir: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">ouvrir: intent</string>
+  <string name="pref_force_text_html_title">Fouce "text/html" type: lorsque le schéma est "http" or "https" et le type ne peut être déduit</string>
+  <string name="pref_force_text_html_summary_on" >ouvrir: avec un navigateur Web</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Convertir "geo:" coordonnées à Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >ouvrir: avec Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">ouvrir: "geo:" intent</string>
 </resources>

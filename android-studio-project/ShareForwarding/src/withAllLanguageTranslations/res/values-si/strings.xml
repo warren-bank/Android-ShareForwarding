@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">තේරීමේ සංවාදය බල කරන්න</string>
   <string name="pref_force_chooser_dialog_summary_on" >විවෘත කරන්න: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">විවෘත කරන්න: intent</string>
+  <string name="pref_force_text_html_title">බලය "text/html" වර්ගය: නාම යෝජනා ක්රමය "http" හෝ "https" සහ වර්ගයක් ලබාදිය නොහැක</string>
+  <string name="pref_force_text_html_summary_on" >විවෘත: වෙබ් ගවේශකය සමග</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Convert "geo:" ඛණ්ඩාංක Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >විවෘත කරන්න: Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">විවෘත කරන්න: "geo:" intent</string>
 </resources>

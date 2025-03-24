@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Dialoogvenster forceren</string>
   <string name="pref_force_chooser_dialog_summary_on" >openen: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">openen: intent</string>
+  <string name="pref_force_text_html_title">Fofceren "text/html" type: wanneer het schema is "http" or "https" en type kan niet worden afgeleid</string>
+  <string name="pref_force_text_html_summary_on" >open: met webbrowser</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Converteren "geo:" coördinaten voor Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >open: met Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">openen: "geo:" intent</string>
 </resources>

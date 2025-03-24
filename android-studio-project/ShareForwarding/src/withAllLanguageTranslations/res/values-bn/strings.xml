@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">নির্বাচন নির্বাচক ডায়ালগ</string>
   <string name="pref_force_chooser_dialog_summary_on" >উন্মুক্ত: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">উন্মুক্ত: intent</string>
+  <string name="pref_force_text_html_title">ফোর্স "text/html" ধরন: যখন স্কীম "http" অথবা "https" এবং টাইপ করা যাবে না</string>
+  <string name="pref_force_text_html_summary_on" >উন্মুক্ত: ওয়েব ব্রাউজার দিয়ে</string>
+  <string name="pref_convert_geo_to_googlemaps_title">রূপান্তর "geo:" স্থানাংক Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >উন্মুক্ত: Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">উন্মুক্ত: "geo:" intent</string>
 </resources>

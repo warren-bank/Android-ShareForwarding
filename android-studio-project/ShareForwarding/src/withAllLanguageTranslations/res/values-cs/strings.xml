@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Vynutit dialogové okno výběru</string>
   <string name="pref_force_chooser_dialog_summary_on" >open, otevřít: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">open, otevřít: intent</string>
+  <string name="pref_force_text_html_title">Vynutit "text/html" typ: je-li schéma "http" nebo "https" a typ nelze odvodit</string>
+  <string name="pref_force_text_html_summary_on" >otevřeno: pomocí webového prohlížeče</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Konverze "geo:" souřadnice Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >otevření: s Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">open, otevřít: "geo:" intent</string>
 </resources>

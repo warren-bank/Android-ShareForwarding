@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Gennemtving vælger-dialogboks</string>
   <string name="pref_force_chooser_dialog_summary_on" >åben: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">åben: intent</string>
+  <string name="pref_force_text_html_title">Gennemtving "text/html" type: når ellerdningen er "http" or "https" og type kan ikke udskydes</string>
+  <string name="pref_force_text_html_summary_on" >åbn: med webbrowser</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Konvertér "geo:" koordinater til Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >åben: med Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">åben: "geo:" intent</string>
 </resources>

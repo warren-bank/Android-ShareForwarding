@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Diálogo forzar selector</string>
   <string name="pref_force_chooser_dialog_summary_on" >Abierto: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">Abierto: intent</string>
+  <string name="pref_force_text_html_title">Fuerza "text/html" tipo: cuando el esquema es "http" o "https" y el tipo no puede inferirse</string>
+  <string name="pref_force_text_html_summary_on" >abierto: con navegador web</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Convertir "geo:" coordenadas a Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >abierto: con Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">Abierto: "geo:" intent</string>
 </resources>

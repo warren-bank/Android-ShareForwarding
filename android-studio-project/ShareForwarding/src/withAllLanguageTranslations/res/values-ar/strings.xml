@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">مربع حوار وحدة اختيار القوة</string>
   <string name="pref_force_chooser_dialog_summary_on" >فتح: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">فتح: intent</string>
+  <string name="pref_force_text_html_title">القوة "text/html" النوع : عندما يكون الوصف المنطقي هو "http" أو "https" ولا يمكن الاستدلال على النوع</string>
+  <string name="pref_force_text_html_summary_on" >فتح : مع برنامج تصفح web</string>
+  <string name="pref_convert_geo_to_googlemaps_title">تحويل "geo:" الاحداثيات الى Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >فتح : مع Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">فتح: "geo:" intent</string>
 </resources>

@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Dialog de forță</string>
   <string name="pref_force_chooser_dialog_summary_on" >deschis: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">deschis: intent</string>
+  <string name="pref_force_text_html_title">Fsauța "text/html" tip: când schema este "http" or "https" și tipul nu poate fi dedus</string>
+  <string name="pref_force_text_html_summary_on" >deschis: cu browser web</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Conversia "geo:" Coordonate Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >deschis: cu Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">deschis: "geo:" intent</string>
 </resources>

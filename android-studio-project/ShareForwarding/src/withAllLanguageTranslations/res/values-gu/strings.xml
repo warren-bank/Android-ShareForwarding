@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">પસંદ કરનાર સંવાદને દબાણ કરો</string>
   <string name="pref_force_chooser_dialog_summary_on" >ખોલો: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">ખોલો: intent</string>
+  <string name="pref_force_text_html_title">દબાણ કરો "text/html" પ્રકાર: જ્યારે યોજના હોય "http" અથવા "https" અને પ્રકાર માન્ય કરી શકાતી નથી</string>
+  <string name="pref_force_text_html_summary_on" >ખોલો: વેબ બ્રાઉઝર સાથે</string>
+  <string name="pref_convert_geo_to_googlemaps_title">રૂપાંતર કરો "geo:" નો અક્ષ Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >ખોલો: સાથે Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">ખોલો: "geo:" intent</string>
 </resources>

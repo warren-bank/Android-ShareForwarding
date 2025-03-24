@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Дијалог за избирљиве силе</string>
   <string name="pref_force_chooser_dialog_summary_on" >отвори: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">отвори: intent</string>
+  <string name="pref_force_text_html_title">Сила "text/html" Тип: када је шема "http" или "https" Тип и тип се не могу закључити</string>
+  <string name="pref_force_text_html_summary_on" >отвори: са веб прегледачем</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Конвертуј "geo:" координате за Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >отвори: са Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">отвори: "geo:" intent</string>
 </resources>

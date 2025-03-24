@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Forsiraj dijalog biranja</string>
   <string name="pref_force_chooser_dialog_summary_on" >otvori: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">otvori: intent</string>
+  <string name="pref_force_text_html_title">Filisiraj "text/html" tip: kada je plan "http" or "https" i ne može biti zaključena</string>
+  <string name="pref_force_text_html_summary_on" >Otvori: s web preglednikom</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Konvertiraj "geo:" koordinira u Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >Otvori: sa Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">otvori: "geo:" intent</string>
 </resources>

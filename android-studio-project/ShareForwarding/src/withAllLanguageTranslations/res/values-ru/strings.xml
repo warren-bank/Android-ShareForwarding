@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Диалоговое окно средства выбора сил</string>
   <string name="pref_force_chooser_dialog_summary_on" >открытая: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">открытая: intent</string>
+  <string name="pref_force_text_html_title">Принудительно "text/html" тип: когда схема "http" или "https" и тип не может быть выведен</string>
+  <string name="pref_force_text_html_summary_on" >открыть: с веб-браузером</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Преобразовать "geo:" координаты для Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >открыто: с Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">открытая: "geo:" intent</string>
 </resources>

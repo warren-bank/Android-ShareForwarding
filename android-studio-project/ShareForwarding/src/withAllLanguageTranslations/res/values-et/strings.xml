@@ -5,4 +5,9 @@
   <string name="pref_force_chooser_dialog_title">Töökoseri dialoog</string>
   <string name="pref_force_chooser_dialog_summary_on" >open: Intent.createChooser(intent)</string>
   <string name="pref_force_chooser_dialog_summary_off">open: intent</string>
+  <string name="pref_force_text_html_title">Jõud "text/html" tüüp: kui skeem on "http" või "https" ja seda ei saa tuletada</string>
+  <string name="pref_force_text_html_summary_on" >open: veebilehitseja</string>
+  <string name="pref_convert_geo_to_googlemaps_title">Teisenda "geo:" koordinaadid Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_on" >avatud: koos Google Maps URI</string>
+  <string name="pref_convert_geo_to_googlemaps_summary_off">open: "geo:" intent</string>
 </resources>
