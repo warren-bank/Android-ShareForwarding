@@ -1,10 +1,10 @@
 project.ext {
     applicationId       = 'com.github.warren_bank.share_forwarding'
-    releaseVersionCode  = Integer.parseInt("001020108", 10)  //Integer.MAX_VALUE == 2147483647
-    releaseVersion      = '001.02.01-08API'
+    releaseVersionCode  = Integer.parseInt("001020208", 10)  //Integer.MAX_VALUE == 2147483647
+    releaseVersion      = '001.02.02-08API'
     javaVersion         = JavaVersion.VERSION_1_8
     minSdkVersion       = 8
     targetSdkVersion    = 35
     compileSdkVersion   = 35
-    buildToolsVersion   = '34.0.0'
+    buildToolsVersion   = '35.0.0'
 }
